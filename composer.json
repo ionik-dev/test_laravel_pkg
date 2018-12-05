@@ -1,6 +1,6 @@
 {
   "name": "gomlyakov/meta",
-  "description": "Test package",
+  "description": "Test package for Laravel with facade and service provider auto-registration",
   "license": "MIT",
   "authors": [
     {

@@ -1,0 +1,27 @@
+{
+  "name": "gomlyakov/meta",
+  "description": "Test package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim Gomlyakov",
+      "email": "jackalope@yandex.ru"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Gomlyakov\\Meta": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gomlyakov\\Meta\\MetaServiceProvider"
+      ],
+      "aliases": {
+        "meta": "Gomlyakov\\Meta\\Meta"
+      }
+    }
+  }
+}

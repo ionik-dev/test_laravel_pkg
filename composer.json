@@ -20,7 +20,7 @@
         "Gomlyakov\\Meta\\MetaServiceProvider"
       ],
       "aliases": {
-        "meta": "Gomlyakov\\Meta\\Meta"
+        "Meta": "Gomlyakov\\Meta\\Meta"
       }
     }
   }

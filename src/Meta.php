@@ -10,6 +10,6 @@ class Meta extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'meta';
+        return 'Meta';
     }
 }

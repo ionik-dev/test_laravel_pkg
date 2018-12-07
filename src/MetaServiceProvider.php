@@ -15,7 +15,7 @@ class MetaServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton('meta', function ($app) {
+        $this->app->singleton('Meta', function () {
             $meta = new MetaService('test');
 
             return $meta;
